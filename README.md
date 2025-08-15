@@ -1,18 +1,28 @@
 <div align="center">
   <img src="assets/icons/icon.png" alt="Widgets Link Icon" width="128" height="128">
   <h1>Widgets Link</h1>
-  <p>A beautiful macOS desktop application that brings interactive widgets to your desktop</p>
+  <p>Share your MacBook screen to Widgets mixed reality app on Meta Quest headsets</p>
 </div>
 
-A beautiful macOS desktop application that brings interactive widgets to your desktop. Display live weather, clocks, and custom informational panels that overlay seamlessly on your screen.
+**Widgets Link** is a specialized macOS application that enables seamless screen sharing from your MacBook to the **Widgets mixed reality application** on Meta Quest headsets. Transform your MacBook into a powerful mixed reality workspace by streaming your screen directly to your VR headset.
 
 ## Features
 
-- **Interactive Desktop Widgets**: Add weather, clocks, and custom panels to your desktop
-- **Live Data**: Widgets automatically update with real-time information
-- **Customizable**: Arrange and configure widgets to match your workflow
-- **Lightweight**: Minimal resource usage while providing rich functionality
-- **Native macOS Experience**: Built specifically for macOS with proper system integration
+- **Meta Quest Integration**: Seamlessly connect to Widgets mixed reality app
+- **Real-time Screen Sharing**: Stream your MacBook display to VR in real-time
+- **Optimized Performance**: Built specifically for Apple Silicon (M-series) MacBooks
+- **Low Latency**: Minimal delay for responsive mixed reality experience
+- **Privacy Focused**: Local processing with no cloud data transmission
+- **Easy Setup**: Simple one-click connection to your Quest headset
+
+## System Requirements
+
+- **MacBook**: Must have Apple Silicon (M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, M3 Max)
+- **macOS**: 12.0 (Monterey) or later
+- **Meta Quest**: Quest 2, Quest Pro, or Quest 3 with Widgets app installed
+- **Network**: Both devices must be on the same Wi-Fi network
+- **RAM**: 8GB minimum, 16GB recommended
+- **Storage**: 100MB available space
 
 ## Download
 
@@ -22,7 +32,7 @@ A beautiful macOS desktop application that brings interactive widgets to your de
 
 ### Step 1: Download
 1. Click the download link above
-2. Download the `.dmg` file for your macOS version
+2. Download the `.dmg` file for your M-series MacBook
 
 ### Step 2: Install
 1. **Open the downloaded `.dmg` file** (double-click in Downloads folder)
@@ -42,7 +52,7 @@ Since this is an unsigned app, you'll need to bypass macOS security warnings:
 ## Required Permissions
 
 ### Screen Recording Permission
-Widgets Link needs Screen Recording permission to display widgets on your desktop:
+Widgets Link needs Screen Recording permission to capture and stream your MacBook's display:
 
 1. **Launch Widgets Link** (following the steps above)
 2. When prompted, click **"Allow"** for Screen Recording permission
@@ -57,53 +67,58 @@ If the app doesn't prompt for permissions:
 3. Find **Widgets Link** in the list and check the box
 4. **Quit and reopen** the app
 
-### Additional Permissions
-Depending on which widgets you use, the app may request:
-- **Location Services** (for weather widgets)
-- **Network Access** (for data updates)
-- **Accessibility** (for some widget interactions)
-
 ## Usage
 
 ### Getting Started
 1. **Launch Widgets Link** from Applications or Spotlight (⌘+Space, then type "Widgets Link")
-2. **Add Widgets**: Use the app's interface to add and configure widgets
-3. **Arrange**: Drag widgets to position them on your desktop
-4. **Customize**: Right-click widgets to access settings and options
+2. **Ensure your Meta Quest is on the same Wi-Fi network**
+3. **Open the Widgets app on your Quest headset**
+4. **Click "Connect" in Widgets Link** to establish the connection
+5. **Your MacBook screen will now stream to your VR headset**
 
-### Widget Types
-- **Weather**: Current conditions and forecasts
-- **Clock**: Analog and digital time displays
-- **System Info**: CPU, memory, and network usage
-- **Custom Panels**: RSS feeds, notes, and more
+### Connection Process
+- Both devices must be on the same Wi-Fi network
+- Widgets Link will automatically detect available Quest headsets
+- Click "Connect" to establish the screen sharing session
+- Your MacBook display will appear in the Widgets mixed reality environment
+
+### Disconnecting
+- Use the "Disconnect" button in Widgets Link
+- Or close the app to end the screen sharing session
 
 ## Troubleshooting
 
 ### App Won't Open
 - **Follow the First Launch steps** above (right-click → Open)
 - Check if the app is blocked in **System Settings** → **Privacy & Security** → **Security**
-- Try **restarting your Mac** and launching again
+- Try **restarting your MacBook** and launching again
 
 ### Permissions Not Working
 - **Quit the app completely** (⌘+Q)
 - **Recheck permissions** in System Settings
-- **Restart your Mac** and try again
+- **Restart your MacBook** and try again
 
-### Widgets Not Displaying
+### Can't Connect to Quest
+- Ensure both devices are on the **same Wi-Fi network**
+- Check that **Widgets app is running** on your Quest headset
+- Try **restarting both devices** and reconnecting
+- Verify your **Quest headset is not in sleep mode**
+
+### Screen Not Sharing
 - Ensure **Screen Recording permission** is granted
-- Check if widgets are **enabled** in the app
-- Try **refreshing** widgets from the app menu
+- Check that **Widgets Link is connected** to your Quest
+- Try **refreshing the connection** by disconnecting and reconnecting
 
-### App Still Blocked
-- Go to **System Settings** → **Privacy & Security** → **Security**
-- Look for **"Widgets Link was blocked"** message
-- Click **"Allow Anyway"**
+### Performance Issues
+- **Close unnecessary applications** on your MacBook
+- Ensure **stable Wi-Fi connection** between devices
+- **Restart both devices** if experiencing lag or stuttering
 
 ## Screenshots
 
 ### Main Application Interface
 ![Widgets Link Application](/assets/screenshots/widgets-link-app.png)
-*The main Widgets Link application interface showing the widget management system*
+*The main Widgets Link application interface for connecting to Meta Quest headsets*
 
 ### Permission Setup Process
 ![Permission Request](/assets/screenshots/permission-ask.png)
@@ -116,18 +131,11 @@ Depending on which widgets you use, the app may request:
 
 *These screenshots show the complete setup process from app launch to permission configuration*
 
-## System Requirements
-
-- **macOS**: 12.0 (Monterey) or later
-- **RAM**: 4GB minimum, 8GB recommended
-- **Storage**: 100MB available space
-- **Permissions**: Screen Recording access required
-
 ## Support
 
 - **Issues**: Report bugs or problems on the [GitHub Issues page](https://github.com/yourusername/Widgets-Link-Stream/issues)
 - **Questions**: Check existing issues or create a new one for help
-- **Feature Requests**: We welcome suggestions for new widgets and features
+- **Feature Requests**: We welcome suggestions for improving the Meta Quest integration
 
 ## License
 
@@ -135,6 +143,6 @@ This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.t
 
 ---
 
-**Widgets Link** - Bringing your desktop to life with beautiful, interactive widgets.
+**Widgets Link** - Bridge your MacBook to the mixed reality world of Widgets on Meta Quest.
 
-*Built with ❤️ for macOS users* 
+*Built specifically for Apple Silicon MacBooks to deliver the best mixed reality experience* 
