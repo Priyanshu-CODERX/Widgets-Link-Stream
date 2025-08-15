@@ -1,5 +1,3 @@
-# Widgets Link
-
 <div align="center">
   <img src="assets/icons/icon.png" alt="Widgets Link Icon" width="128" height="128">
   <h1>Widgets Link</h1>
