@@ -52,19 +52,21 @@ Since this is an unsigned app, you'll need to bypass macOS security warnings:
 ## Required Permissions
 
 ### Screen Recording Permission
-Widgets Link needs Screen Recording permission to capture and stream your MacBook's display:
+Widgets Link automatically requests Screen Recording permission on first launch:
 
 1. **Launch Widgets Link** (following the steps above)
-2. When prompted, click **"Allow"** for Screen Recording permission
-3. **Quit the app completely** (⌘+Q)
-4. **Reopen the app** - it should now work properly
+2. When the permission dialog appears, click **"Open System Settings"**
+3. In System Settings, navigate to **Privacy & Security** → **Screen Recording**
+4. **Toggle ON** the switch next to **Widgets Link**
+5. **Quit the app completely** (⌘+Q)
+6. **Reopen Widgets Link** - it should now work properly
 
 ### Manual Permission Setup (if needed)
-If the app doesn't prompt for permissions:
+If the app doesn't prompt for permissions automatically:
 
 1. Open **System Settings** (or System Preferences on older macOS)
 2. Go to **Privacy & Security** → **Screen Recording**
-3. Find **Widgets Link** in the list and check the box
+3. Find **Widgets Link** in the list and toggle it **ON**
 4. **Quit and reopen** the app
 
 ## Usage
@@ -130,15 +132,15 @@ If the app doesn't prompt for permissions:
 *The main Widgets Link application interface for connecting to Meta Quest headsets*
 
 ### Permission Setup Process
-![Permission Request](/assets/screenshots/permission-ask.png)
-*Screen recording permission request dialog - click "Allow" to proceed*
+![Permission Request Dialog](/assets/screenshots/permission-ask.png)
+*Permission dialog with two options: "Open System Settings" or "Deny" - click "Open System Settings"*
 
 ![System Settings - Screen Recording](/assets/screenshots/screen-system-recording.png)
-*Add Widgets Link to the Screen Recording whitelist in System Settings*
+*Toggle ON the Screen Recording permission for Widgets Link in System Settings*
 
 ---
 
-*These screenshots show the complete setup process from app launch to permission configuration*
+*These screenshots show the complete permission setup process from initial request to enabling the toggle*
 
 ## Support
 
