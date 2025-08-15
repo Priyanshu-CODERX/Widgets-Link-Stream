@@ -13,7 +13,7 @@
 - **Optimized Performance**: Built specifically for Apple Silicon (M-series) MacBooks
 - **Low Latency**: Minimal delay for responsive mixed reality experience
 - **Privacy Focused**: Local processing with no cloud data transmission
-- **Easy Setup**: Simple one-click connection to your Quest headset
+- **Secure Pairing**: Pair via a one-time security code shown in the PC Connect widget, then click Start Capture
 
 ## System Requirements
 
@@ -70,21 +70,23 @@ If the app doesn't prompt for permissions:
 ## Usage
 
 ### Getting Started
-1. **Launch Widgets Link** from Applications or Spotlight (⌘+Space, then type "Widgets Link")
-2. **Ensure your Meta Quest is on the same Wi-Fi network**
-3. **Open the Widgets app on your Quest headset**
-4. **Click "Connect" in Widgets Link** to establish the connection
-5. **Your MacBook screen will now stream to your VR headset**
+1. On your Meta Quest headset, open the **Widgets** app, then open the **PC Connect** widget. A one-time **security code** will be displayed.
+2. On your MacBook, launch **Widgets Link** from Applications or Spotlight (⌘+Space, then type "Widgets Link").
+3. Enter the **security code** shown in the PC Connect widget into Widgets Link on your MacBook.
+4. Click **Start Capture**.
+5. If prompted, grant **Screen Recording** permission.
+6. Your MacBook screen will now stream to the **PC Connect** widget in the Widgets mixed reality app.
 
 ### Connection Process
-- Both devices must be on the same Wi-Fi network
-- Widgets Link will automatically detect available Quest headsets
-- Click "Connect" to establish the screen sharing session
-- Your MacBook display will appear in the Widgets mixed reality environment
+- Both devices must be on the **same Wi‑Fi network**
+- Open the **PC Connect** widget on the headset to get the security code
+- Enter the code in **Widgets Link** on your MacBook
+- Click **Start Capture** to begin streaming
+- Your MacBook display appears inside the **Widgets** mixed reality environment
 
 ### Disconnecting
-- Use the "Disconnect" button in Widgets Link
-- Or close the app to end the screen sharing session
+- Click **Disconnect** in Widgets Link
+- Or close Widgets Link to end the session
 
 ## Troubleshooting
 
@@ -99,20 +101,27 @@ If the app doesn't prompt for permissions:
 - **Restart your MacBook** and try again
 
 ### Can't Connect to Quest
-- Ensure both devices are on the **same Wi-Fi network**
-- Check that **Widgets app is running** on your Quest headset
+- Ensure both devices are on the **same Wi‑Fi network**
+- Confirm the **Widgets app** is running and the **PC Connect** widget is open
+- Verify you entered the **exact security code** shown in the headset
 - Try **restarting both devices** and reconnecting
-- Verify your **Quest headset is not in sleep mode**
+- Ensure the **Quest headset is awake** (not in sleep mode)
+
+### Security Code Issues
+- If the code shows as **invalid**, double‑check each digit and try again
+- If the code **expired**, reopen the **PC Connect** widget to get a new code
+- Make sure there are **no leading/trailing spaces** when entering the code
 
 ### Screen Not Sharing
-- Ensure **Screen Recording permission** is granted
-- Check that **Widgets Link is connected** to your Quest
-- Try **refreshing the connection** by disconnecting and reconnecting
+- Ensure **Screen Recording permission** is granted to Widgets Link
+- Confirm you clicked **Start Capture** after entering the code
+- Keep the **PC Connect** widget open on the headset while streaming
+- Try **Disconnect**, then reconnect with a fresh code
 
 ### Performance Issues
 - **Close unnecessary applications** on your MacBook
-- Ensure **stable Wi-Fi connection** between devices
-- **Restart both devices** if experiencing lag or stuttering
+- Ensure a **stable Wi‑Fi connection** between devices
+- **Restart both devices** if you experience lag or stuttering
 
 ## Screenshots
 
