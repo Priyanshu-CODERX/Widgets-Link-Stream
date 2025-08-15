@@ -26,7 +26,7 @@
 
 ## Download
 
-📥 **Download the latest version**: (https://github.com/yourusername/Widgets-Link-Stream/releases/)
+📥 **Download the latest version**: (https://github.com/Priyanshu-CODERX/Widgets-Link-Stream/releases/)
 
 ## Installation
 
