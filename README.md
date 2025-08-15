@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/icons/icon.png" alt="Widgets Link Icon" width="128" height="128">
+  <img src="assets/icons/icon.png" alt="Widgets Link Icon" width="256" height="256">
   <h1>Widgets Link</h1>
   <p>Share your MacBook screen to Widgets mixed reality app on Meta Quest headsets</p>
 </div>
@@ -144,7 +144,7 @@ If the app doesn't prompt for permissions automatically:
 
 ## Support
 
-- **Issues**: Report bugs or problems on the [GitHub Issues page](https://github.com/yourusername/Widgets-Link-Stream/issues)
+- **Issues**: Report bugs or problems on the [GitHub Issues page](https://github.com/Priyanshu-CODERX/Widgets-Link-Stream/issues)
 - **Questions**: Check existing issues or create a new one for help
 - **Feature Requests**: We welcome suggestions for improving the Meta Quest integration
 
