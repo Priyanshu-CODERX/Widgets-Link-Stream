@@ -4,24 +4,34 @@
   <p>Share your MacBook screen to Widgets mixed reality app on Meta Quest headsets</p>
 </div>
 
+<div align="center">
+  
+  [![Join Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/nSYrHPT5uP)
+
+</div>
+
+
 **Widgets Link** is a specialized macOS application that enables seamless screen sharing from your MacBook to the **Widgets mixed reality application** on Meta Quest headsets. Transform your MacBook into a powerful mixed reality workspace by streaming your screen directly to your VR headset.
+
+<div align="center">
+  <img src="assets/videos/widgets-link-in-the-works.gif" alt="Widgets Link in Action" width="600">
+  <p><em>Widgets Link in action - streaming MacBook screen to Widgets</em></p>
+</div>
 
 ## Features
 
 - **Meta Quest Integration**: Seamlessly connect to Widgets mixed reality app
 - **Real-time Screen Sharing**: Stream your MacBook display to VR in real-time
 - **Optimized Performance**: Built specifically for Apple Silicon (M-series) MacBooks
-- **Low Latency**: Minimal delay for responsive mixed reality experience
 - **Privacy Focused**: Local processing with no cloud data transmission
 - **Secure Pairing**: Pair via a one-time security code shown in the PC Connect widget, then click Start Capture
 
 ## System Requirements
 
-- **MacBook**: Must have Apple Silicon (M1, M1 Pro, M1 Max, M2, M2 Pro, M2 Max, M3, M3 Pro, M3 Max)
+- **MacBook**: Must have Apple Silicon based Mac's
 - **macOS**: 12.0 (Monterey) or later
 - **Meta Quest**: Quest 2, Quest Pro, or Quest 3 with Widgets app installed
 - **Network**: Both devices must be on the same Wi-Fi network
-- **RAM**: 8GB minimum, 16GB recommended
 - **Storage**: 100MB available space
 
 ## Download
@@ -147,6 +157,23 @@ If the app doesn't prompt for permissions automatically:
 - **Issues**: Report bugs or problems on the [GitHub Issues page](https://github.com/Priyanshu-CODERX/Widgets-Link-Stream/issues)
 - **Questions**: Check existing issues or create a new one for help
 - **Feature Requests**: We welcome suggestions for improving the Meta Quest integration
+
+## Community
+
+Join our **Discord server** to connect with other Widgets Link users, get real-time support, share your experiences, and stay updated on the latest features!
+
+<div align="center">
+  
+  [![Join Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/nSYrHPT5uP)
+
+</div>
+
+**Why join our Discord?**
+- 🚀 **Get help instantly** from the community and developers
+- 💡 **Share tips and tricks** for the best mixed reality experience
+- 🔔 **Stay updated** on new releases and features
+- 🎮 **Connect with other VR enthusiasts** using Widgets
+- 🐛 **Report issues** and get quick feedback
 
 ## License
 
