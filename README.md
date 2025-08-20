@@ -54,6 +54,9 @@
 ### Step 3: Remove Quarantine Attributes
 Since this is an unsigned app, macOS will block it from running. You need to remove the quarantine attributes:
 
+![Damaged Binary Warning](/assets/screenshots/damaged-binary.png)
+*This is what you'll see when trying to run the unsigned app - macOS blocks it as "damaged"*
+
 **Option 1: If the app is in Applications folder:**
 ```bash
 xattr -dr com.apple.quarantine "Widgets Link.app"
