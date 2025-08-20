@@ -36,28 +36,41 @@
 
 ## Download
 
-📥 **Download the latest version**: (https://github.com/Priyanshu-CODERX/Widgets-Link-Stream/releases/)
+📥 **Download the latest version**: [Latest Release](https://github.com/Priyanshu-CODERX/Widgets-Link-Stream/releases/)
+
+**File Format**: `.zip` archive containing the Widgets Link application
 
 ## Installation
 
 ### Step 1: Download
 1. Click the download link above
-2. Download the `.dmg` file for your M-series MacBook
+2. Download the `.zip` file for your M-series MacBook
 
-### Step 2: Install
-1. **Open the downloaded `.dmg` file** (double-click in Downloads folder)
-2. **Drag `Widgets Link.app` into your Applications folder**
-3. **Eject the installer** by clicking the eject button next to "Widgets Link" in Finder
+### Step 2: Extract and Install
+1. **Extract the downloaded `.zip` file** (double-click in Downloads folder)
+2. **Move `Widgets Link.app` to your Applications folder**
+3. **Open Terminal** (Applications → Utilities → Terminal, or use Spotlight: ⌘+Space, then type "Terminal")
 
-### Step 3: First Launch
-Since this is an unsigned app, you'll need to bypass macOS security warnings:
+### Step 3: Remove Quarantine Attributes
+Since this is an unsigned app, macOS will block it from running. You need to remove the quarantine attributes:
 
-1. **Right-click** on `Widgets Link.app` in your Applications folder
-2. Select **"Open"** from the context menu
-3. Click **"Open"** in the security dialog that appears
-4. The app will now launch normally
+**Option 1: If the app is in Applications folder:**
+```bash
+xattr -dr com.apple.quarantine "Widgets Link.app"
+```
 
-**Note**: You only need to do this once. Future launches can be done normally.
+**Option 2: If the app is still in Downloads or another location:**
+```bash
+xattr -dr com.apple.quarantine path/to/"Widgets Link.app"
+```
+
+**Note**: Replace `path/to/` with the actual path where you extracted the app.
+
+### Step 4: Launch the App
+1. **Navigate to Applications folder** and double-click `Widgets Link.app`
+2. The app should now launch without security warnings
+
+**Important**: You only need to run the quarantine removal command once per app installation and this won't effect you mac.
 
 ## Required Permissions
 
